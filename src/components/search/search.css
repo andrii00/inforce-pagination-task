@@ -1,0 +1,27 @@
+.autocomplete {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 100%;
+    background: #b6b6b6;
+    z-index: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 240px;
+    height: auto;
+    overflow: auto;
+}
+.search_form{
+    position: relative;
+    margin-top: 10px;
+    height: 50px;
+}
+.autocomplete_item{
+    padding: 5px;
+}
+.autocomplete_item:hover{
+    background: #ffffff;
+    cursor: pointer;
+    transition: cubic-bezier(1,0,0,1).3s all;
+}
